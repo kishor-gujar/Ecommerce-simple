@@ -1,0 +1,121 @@
+@model Ecommerce.Models.Address
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h2>Create</h2>
+
+<form asp-action="Create">
+    <div class="form-horizontal">
+        <h4>Address</h4>
+        <hr />
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div class="form-group">
+            <label asp-for="FirstName" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="FirstName" class="form-control" />
+                <span asp-validation-for="FirstName" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="LastName" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="LastName" class="form-control" />
+                <span asp-validation-for="LastName" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="MobileNo" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="MobileNo" class="form-control" />
+                <span asp-validation-for="MobileNo" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="Email" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="Email" class="form-control" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="Company" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="Company" class="form-control" />
+                <span asp-validation-for="Company" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="Street" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="Street" class="form-control" />
+                <span asp-validation-for="Street" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="Number" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="Number" class="form-control" />
+                <span asp-validation-for="Number" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="Gender" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <select asp-for="Gender" class="form-control" asp-items="ViewBag.Gender"></select>
+                <span asp-validation-for="Gender" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="Pincode" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="Pincode" class="form-control" />
+                <span asp-validation-for="Pincode" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="ShppingAddress" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="ShppingAddress" class="form-control" />
+                <span asp-validation-for="ShppingAddress" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="State" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="State" class="form-control" />
+                <span asp-validation-for="State" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="City" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="City" class="form-control" />
+                <span asp-validation-for="City" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="Country" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <select asp-for="Country" class="form-control" asp-items="ViewBag.Country"></select>
+                <span asp-validation-for="Country" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group hidden">
+            <label asp-for="UserId" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <select asp-for="UserId" class ="form-control" asp-items="ViewBag.UserId"></select>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Create" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+</form>
+
+<div>
+</div>
+

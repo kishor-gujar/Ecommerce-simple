@@ -1,0 +1,68 @@
+﻿@model Product
+
+@{
+    ViewData["Title"] = "Details";
+}
+<div class="container">
+    <div class="row">
+        <div class="col-xs-4 item-photo">
+            <img class="img-thumbnail" src="~/products/@Html.DisplayFor(model => model.Picture)">
+        </div>
+        <div class="col-xs-5" style="border: 0px solid gray">
+            <!-- Datos del vendedor y titulo del producto -->
+            <h3>@Html.DisplayFor(model => model.Name)</h3>
+            <h5 style="color: #337ab7">vendido por <a href="#">Samsung</a> � <small style="color: #337ab7">(5054 ventas)</small></h5>
+            <!-- Precios -->
+            <h6 class="title-price">
+                <small>PRECIO OFERTA</small>
+            </h6>
+            <h3 style="margin-top: 0px;">$@Html.DisplayFor(model => model.UnitPrice)</h3>
+            <!-- Detalles especificos del producto -->
+            <form asp-controller="Carts" asp-action="Create" method="post">
+
+                <div class="input-group" style="padding-bottom: 20px;">
+                    <input value="1" name="Quantity"/>
+                </div>
+                <!-- Botones de compra -->
+                <div class="section" style="padding-bottom: 20px;">
+                <p>
+                    @Html.DisplayNameFor(model => model.UnitWeight):@Html.DisplayFor(model => model.UnitWeight)
+                </p>
+                <p>
+                    @Html.DisplayNameFor(model => model.UnitsInStock):@Html.DisplayFor(model => model.UnitsInStock)
+                </p>
+                <p>
+                    @Html.DisplayNameFor(model => model.AvailabelSize):@Html.DisplayFor(model => model.AvailabelSize)
+                </p>
+                <p>
+                    @Html.DisplayNameFor(model => model.Size):@Html.DisplayFor(model => model.Size)
+                </p>
+                <p>
+                    @Html.DisplayNameFor(model => model.Color):@Html.DisplayFor(model => model.Color)
+                </p>
+
+
+                <input name="ProductId" type="hidden" value="@Html.DisplayFor(model => model.Id)"/>
+                <input name="UserId" value="myid" type="hidden"/>
+                <button type="submit" class="btn btn-success"><span style="margin-right: 20px" class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> Add to cart</button>
+            </form>
+
+            <h6>
+                <a href="#"><span class="glyphicon glyphicon-heart-empty" style="cursor: pointer;"></span> Add to favourite</a>
+            </h6>
+        </div>
+        <div class="col-xs-9">
+            <ul class="menu-items">
+                Discription
+            </ul>
+            <div style="border-top: 1px solid silver; width: 100%;">
+                <p style="padding: 15px;">
+                    <small>
+                        @Html.DisplayFor(model => model.Description)
+                    </small>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+</div>

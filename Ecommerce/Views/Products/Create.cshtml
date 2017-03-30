@@ -1,0 +1,134 @@
+@model Product
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h2>Create</h2>
+
+<form asp-action="Create" enctype="multipart/form-data">
+    <div class="form-horizontal">
+        <h4>Product</h4>
+        <hr/>
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div class="form-group">
+            <label asp-for="Name" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="Name" class="form-control"/>
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="Description" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="Description" class="form-control"/>
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="QuantityPerUnit" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="QuantityPerUnit" class="form-control"/>
+                <span asp-validation-for="QuantityPerUnit" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="UnitPrice" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="UnitPrice" class="form-control"/>
+                <span asp-validation-for="UnitPrice" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="AvailabelSize" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="AvailabelSize" class="form-control"/>
+                <span asp-validation-for="AvailabelSize" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="Size" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="Size" class="form-control"/>
+                <span asp-validation-for="Size" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="Color" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="Color" class="form-control"/>
+                <span asp-validation-for="Color" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="Dicount" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="Dicount" class="form-control"/>
+                <span asp-validation-for="Dicount" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="UnitWeight" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="UnitWeight" class="form-control"/>
+                <span asp-validation-for="UnitWeight" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="UnitsInStock" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="UnitsInStock" class="form-control"/>
+                <span asp-validation-for="UnitsInStock" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="DiscountAvailabel" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="DiscountAvailabel" class="form-control"/>
+                <span asp-validation-for="DiscountAvailabel" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="Picture" class="col-md-2 control-label"></label>
+            <div class="col-md-6">
+                <input asp-for="Picture" id="input-id" type="file" class="file" data-preview-file-type="text"> <span asp-validation-for="Picture" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="Note" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="Note" class="form-control"/>
+                <span asp-validation-for="Note" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group hidden">
+            <label asp-for="UserId" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <select asp-for="UserId" class="form-control" asp-items="ViewBag.UserId"></select>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="CategoryId" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <select asp-for="CategoryId" class="form-control" asp-items="ViewBag.CategoryId"></select>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Create" class="btn btn-default"/>
+            </div>
+        </div>
+    </div>
+</form>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section bootstrapFileinput {
+    @{ await Html.RenderPartialAsync("_FileUploadPartial"); }
+}
+
+@section Scripts {
+    @{ await Html.RenderPartialAsync("_ValidationScriptsPartial"); }
+}

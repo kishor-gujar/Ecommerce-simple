@@ -1,0 +1,133 @@
+﻿@model IEnumerable<Cart>
+
+@{
+    ViewBag.Title = "title";
+    Layout = "_Layout";
+}
+
+<h2>title</h2>
+
+
+<div id="all">
+
+    <div id="content">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9 clearfix" id="checkout">
+                    <div class="box">
+                        <ul class="nav nav-pills nav-justified">
+                            <li>
+                                <a asp-action="Address"><i class="fa fa-map-marker"></i><br>Address</a>
+                            </li>
+                            <li>
+                                <a asp-action="PaymentType"><i class="fa fa-money"></i><br>Payment Type</a>
+                            </li>
+                            <li class="active">
+                                <a asp-action="OrderOverview"><i class="fa fa-eye"></i><br>Order Overview</a>
+                            </li>
+                        </ul>
+                        <div id="content">
+                            <div class="container">
+                                <div class="row">
+
+                                    <div class="col-md-9 clearfix" id="basket">
+                                        <div class="box">
+                                            <div class="table-responsive">
+                                                <table class="table">
+                                                    <thead>
+                                                    <tr>
+                                                        <th colspan="2">Product</th>
+                                                        <th>Quantity</th>
+                                                        <th>Unit Price</th>
+                                                        <th> Discount</th>
+                                                        <th colspan="2">Total</th>
+                                                    </tr>
+                                                    </thead>
+                                                    <tbody>
+
+                                                  
+                                                        @{
+                                                            decimal totalPrice = 0;
+                                                            decimal subtotal = 0;
+                                                            decimal Shipping = 0;
+
+                                                        }
+                                                        @foreach (var item in Model)
+                                                        {
+                                                            subtotal = item.Product.UnitPrice * item.Quantity - item.Product.Dicount;
+                                                            totalPrice = totalPrice + subtotal;
+                                                            <tr>
+                                                                <td>
+                                                                    <a href="#">
+                                                                        <img class="img-thumbnail" src="~/products/@Html.DisplayFor(modelItem => item.Product.Picture)" alt="@Html.DisplayFor(modelItem => item.Product.Name)" />
+                                                                    </a>
+                                                                </td>
+                                                                <td>
+                                                                    <p>
+                                                                        @Html.DisplayFor(modelItem => item.Product.Name) <span class="text-info">Premium</span>
+                                                                    </p>
+                                                                    <p>@Html.DisplayFor(modelItem => item.Product.Description)</p>
+                                                                </td>
+                                                                <td>
+                                                                    <input type="number" value="@Html.DisplayFor(modelItem => item.Quantity)" class="form-control">
+                                                                </td>
+                                                                <td>$@Html.DisplayFor(modelItem => item.Product.UnitPrice)</td>
+                                                                <td>$@Html.DisplayFor(modelItem => item.Product.Dicount)</td>
+                                                                <td>$@totalPrice</td>
+                                                                <td>
+                                                                    <a href="#">
+                                                                        <i class="fa fa-trash-o"></i>
+                                                                    </a>
+                                                                </td>
+                                                            </tr>
+                                                        }
+                                                           
+
+                                                    </tbody>
+                                                    <tfoot>
+                                                    <tr>
+                                                        <th colspan="5">Subtotal</th>
+                                                        <th colspan="2">$@subtotal</th>
+                                                    </tr>
+                  
+                                                     <tr>
+                                                        <th colspan="5">Total</th>
+                                                        <th colspan="2">$@totalPrice</th>
+                                                    </tr>
+                                                    </tfoot>
+                                                </table>
+                                            </div>
+                                            <!-- /.table-responsive -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /.content -->
+                        <div class="box-footer">
+
+                            <div class="pull-left">
+                                <a asp-action="Address" class="btn btn-default"><i class="fa fa-chevron-left"></i>Back</a>
+                            </div>
+                            <form asp-action="OrderOverview">
+                                <div class="pull-right">
+                                    <button class="btn btn-default"><i class="fa fa-refresh"></i> Place Order</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <!-- /.box -->
+
+                </div>
+                <!-- /.col-md-9 -->
+                <!-- /.col-md-3 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </div>
+    <!-- /#content -->
+
+
+</div>
+<!-- /#all -->

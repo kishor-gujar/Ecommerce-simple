@@ -1,0 +1,82 @@
+@model IEnumerable<Cart>
+
+@{
+    ViewData["Title"] = "Shopping Cart";
+}
+<br/>
+<div class="alert alert-info">
+    <strong>Info!</strong> @TempData["cartExist"]
+</div>
+
+<table class="table">
+    <thead>
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Product.Picture)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Quantity)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Product.UnitPrice)
+        </th>
+        <th>
+            SubTotal
+        </th>
+        <th></th>
+    </tr>
+    </thead>
+    <tbody>
+    @{
+        decimal totalPrice = 0;
+    }
+    @foreach (var item in Model)
+    {
+        var subtotal = item.Product.UnitPrice * item.Quantity;
+        totalPrice = totalPrice + subtotal;
+
+        <tr>
+            <td>
+                <img class="img-thumbnail" src="~/products/@Html.DisplayFor(modelItem => item.Product.Picture)" alt="@Html.DisplayFor(modelItem => item.Product.Name)"/>
+            </td>
+            <td>
+                <input class="input-sm" value="@Html.DisplayFor(modelItem => item.Quantity)"/>
+            </td>
+            <td>
+                $@Html.DisplayFor(modelitem => item.Product.UnitPrice)
+            </td>
+            <td>
+                $@Html.DisplayFor(modelItem => subtotal)
+            </td>
+            <td>
+                <a asp-action="Details" asp-controller="Products" asp-route-id="@item.Product.Id">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+    }
+    </tbody>
+    <tr>
+        <td>
+            @if (totalPrice == 0)
+            {
+                <h1>Your cart is currently empty</h1>
+                <a class="btn btn-primary" asp-action="Index" asp-controller="Home">Srat Shoping</a>
+            }
+            else
+            {
+                <td colspan="2">
+                    <h2> Total Price</h2>
+                </td>
+                <td>
+                    <h2>$@totalPrice</h2>
+                </td>
+                <td>
+                    <h2>
+                        <a asp-controller="Checkout" asp-action="Address" class="btn btn-primary">Checkout</a>
+                    </h2>
+                </td>
+            }
+        </td>
+
+    </tr>
+</table>
