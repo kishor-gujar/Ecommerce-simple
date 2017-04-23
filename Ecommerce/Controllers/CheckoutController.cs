@@ -63,7 +63,7 @@ namespace Ecommerce.Controllers
             {
                 var user = await _userManager.GetUserAsync(User);
                 address.UserId = user.Id;
-                _context.Update(address);
+                _context.Add(address);
                 await _context.SaveChangesAsync();
                 return RedirectToAction("PaymentType");
             }

@@ -11026,22 +11026,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\kishor\\.nuget\\packages\\": {}
+    "C:\\Users\\Kishor\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ASP.NET Core 1.1\\Ecommerce\\Ecommerce\\Ecommerce.csproj",
+      "projectUniqueName": "D:\\Projects\\ASP.NET Core 1.1\\Ecommerce\\Ecommerce\\Ecommerce.csproj",
       "projectName": "Ecommerce",
-      "projectPath": "D:\\ASP.NET Core 1.1\\Ecommerce\\Ecommerce\\Ecommerce.csproj",
-      "outputPath": "D:\\ASP.NET Core 1.1\\Ecommerce\\Ecommerce\\obj\\",
+      "projectPath": "D:\\Projects\\ASP.NET Core 1.1\\Ecommerce\\Ecommerce\\Ecommerce.csproj",
+      "outputPath": "D:\\Projects\\ASP.NET Core 1.1\\Ecommerce\\Ecommerce\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netcoreapp1.1"
       ],
-      "files": {
-        "lib/netcoreapp1.1/Ecommerce.dll": "D:\\ASP.NET Core 1.1\\Ecommerce\\Ecommerce\\bin\\placeholder\\netcoreapp1.1\\Ecommerce.dll"
-      },
       "frameworks": {
         "netcoreapp1.1": {
           "projectReferences": {}
@@ -11051,13 +11048,9 @@
     "frameworks": {
       "netcoreapp1.1": {
         "dependencies": {
-          "Microsoft.NETCore.App": {
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
             "target": "Package",
             "version": "1.1.1"
-          },
-          "Microsoft.ApplicationInsights.AspNetCore": {
-            "target": "Package",
-            "version": "2.0.0"
           },
           "Microsoft.AspNetCore": {
             "target": "Package",
@@ -11067,28 +11060,39 @@
             "target": "Package",
             "version": "1.1.1"
           },
+          "Microsoft.Extensions.Logging.Debug": {
+            "target": "Package",
+            "version": "1.1.1"
+          },
+          "Microsoft.EntityFrameworkCore.Tools": {
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "1.1.0"
+          },
+          "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "1.1.0"
+          },
+          "Microsoft.EntityFrameworkCore.Design": {
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "1.1.1"
+          },
           "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
             "target": "Package",
             "version": "1.1.1"
           },
-          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+          "Microsoft.NETCore.App": {
             "target": "Package",
-            "version": "1.1.1"
+            "version": "1.1.1",
+            "autoReferenced": true
           },
-          "Microsoft.AspNetCore.Mvc": {
+          "Microsoft.VisualStudio.Web.BrowserLink": {
             "target": "Package",
-            "version": "1.1.2"
+            "version": "1.1.0"
           },
-          "Microsoft.AspNetCore.Session": {
-            "target": "Package",
-            "version": "1.1.1"
-          },
-          "Microsoft.AspNetCore.StaticFiles": {
-            "target": "Package",
-            "version": "1.1.1"
-          },
-          "Microsoft.EntityFrameworkCore.Design": {
-            "suppressParent": "All",
+          "Microsoft.Extensions.Configuration.UserSecrets": {
             "target": "Package",
             "version": "1.1.1"
           },
@@ -11101,27 +11105,21 @@
             "target": "Package",
             "version": "1.1.1"
           },
-          "Microsoft.EntityFrameworkCore.Tools": {
-            "suppressParent": "All",
+          "Microsoft.AspNetCore.Mvc": {
             "target": "Package",
-            "version": "1.1.0"
+            "version": "1.1.2"
           },
-          "Microsoft.Extensions.Configuration.UserSecrets": {
+          "Microsoft.ApplicationInsights.AspNetCore": {
+            "target": "Package",
+            "version": "2.0.0"
+          },
+          "Microsoft.AspNetCore.Session": {
             "target": "Package",
             "version": "1.1.1"
           },
-          "Microsoft.Extensions.Logging.Debug": {
+          "Microsoft.AspNetCore.StaticFiles": {
             "target": "Package",
             "version": "1.1.1"
-          },
-          "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
-            "suppressParent": "All",
-            "target": "Package",
-            "version": "1.1.0"
-          },
-          "Microsoft.VisualStudio.Web.BrowserLink": {
-            "target": "Package",
-            "version": "1.1.0"
           }
         },
         "imports": [

@@ -40,3 +40,87 @@ D:\ASP.NET Core 1.1\Ecommerce\Ecommerce\bin\Debug\netcoreapp1.1\Accessibility.xm
 D:\ASP.NET Core 1.1\Ecommerce\Ecommerce\bin\Debug\netcoreapp1.1\System.Deployment.xml
 D:\ASP.NET Core 1.1\Ecommerce\Ecommerce\bin\Debug\netcoreapp1.1\System.Runtime.Serialization.Formatters.Soap.xml
 D:\ASP.NET Core 1.1\Ecommerce\Ecommerce\obj\Debug\netcoreapp1.1\UserSecretsAssemblyInfo.cs
+D:\Projects\ASP.NET Core 1.1\Ecommerce - Copy\Ecommerce\bin\Debug\netcoreapp1.1\Ecommerce.deps.json
+D:\Projects\ASP.NET Core 1.1\Ecommerce - Copy\Ecommerce\bin\Debug\netcoreapp1.1\Ecommerce.runtimeconfig.json
+D:\Projects\ASP.NET Core 1.1\Ecommerce - Copy\Ecommerce\bin\Debug\netcoreapp1.1\Ecommerce.runtimeconfig.dev.json
+D:\Projects\ASP.NET Core 1.1\Ecommerce - Copy\Ecommerce\bin\Debug\netcoreapp1.1\Ecommerce.dll
+D:\Projects\ASP.NET Core 1.1\Ecommerce - Copy\Ecommerce\bin\Debug\netcoreapp1.1\Ecommerce.pdb
+D:\Projects\ASP.NET Core 1.1\Ecommerce - Copy\Ecommerce\bin\Debug\netcoreapp1.1\Microsoft.Build.Tasks.v4.0.dll
+D:\Projects\ASP.NET Core 1.1\Ecommerce - Copy\Ecommerce\bin\Debug\netcoreapp1.1\System.dll
+D:\Projects\ASP.NET Core 1.1\Ecommerce - Copy\Ecommerce\bin\Debug\netcoreapp1.1\Microsoft.Build.Utilities.v4.0.dll
+D:\Projects\ASP.NET Core 1.1\Ecommerce - Copy\Ecommerce\bin\Debug\netcoreapp1.1\Microsoft.Build.Framework.dll
+D:\Projects\ASP.NET Core 1.1\Ecommerce - Copy\Ecommerce\bin\Debug\netcoreapp1.1\System.Xml.dll
+D:\Projects\ASP.NET Core 1.1\Ecommerce - Copy\Ecommerce\bin\Debug\netcoreapp1.1\System.Core.dll
+D:\Projects\ASP.NET Core 1.1\Ecommerce - Copy\Ecommerce\bin\Debug\netcoreapp1.1\System.Windows.Forms.dll
+D:\Projects\ASP.NET Core 1.1\Ecommerce - Copy\Ecommerce\bin\Debug\netcoreapp1.1\System.Security.dll
+D:\Projects\ASP.NET Core 1.1\Ecommerce - Copy\Ecommerce\bin\Debug\netcoreapp1.1\System.Xaml.dll
+D:\Projects\ASP.NET Core 1.1\Ecommerce - Copy\Ecommerce\bin\Debug\netcoreapp1.1\System.Configuration.dll
+D:\Projects\ASP.NET Core 1.1\Ecommerce - Copy\Ecommerce\bin\Debug\netcoreapp1.1\System.Data.SqlXml.dll
+D:\Projects\ASP.NET Core 1.1\Ecommerce - Copy\Ecommerce\bin\Debug\netcoreapp1.1\System.Numerics.dll
+D:\Projects\ASP.NET Core 1.1\Ecommerce - Copy\Ecommerce\bin\Debug\netcoreapp1.1\System.Drawing.dll
+D:\Projects\ASP.NET Core 1.1\Ecommerce - Copy\Ecommerce\bin\Debug\netcoreapp1.1\Accessibility.dll
+D:\Projects\ASP.NET Core 1.1\Ecommerce - Copy\Ecommerce\bin\Debug\netcoreapp1.1\System.Deployment.dll
+D:\Projects\ASP.NET Core 1.1\Ecommerce - Copy\Ecommerce\bin\Debug\netcoreapp1.1\System.Runtime.Serialization.Formatters.Soap.dll
+D:\Projects\ASP.NET Core 1.1\Ecommerce - Copy\Ecommerce\bin\Debug\netcoreapp1.1\Microsoft.Build.Tasks.v4.0.xml
+D:\Projects\ASP.NET Core 1.1\Ecommerce - Copy\Ecommerce\bin\Debug\netcoreapp1.1\System.xml
+D:\Projects\ASP.NET Core 1.1\Ecommerce - Copy\Ecommerce\bin\Debug\netcoreapp1.1\Microsoft.Build.Utilities.v4.0.xml
+D:\Projects\ASP.NET Core 1.1\Ecommerce - Copy\Ecommerce\bin\Debug\netcoreapp1.1\Microsoft.Build.Framework.xml
+D:\Projects\ASP.NET Core 1.1\Ecommerce - Copy\Ecommerce\bin\Debug\netcoreapp1.1\System.Xml.xml
+D:\Projects\ASP.NET Core 1.1\Ecommerce - Copy\Ecommerce\bin\Debug\netcoreapp1.1\System.Core.xml
+D:\Projects\ASP.NET Core 1.1\Ecommerce - Copy\Ecommerce\bin\Debug\netcoreapp1.1\System.Windows.Forms.xml
+D:\Projects\ASP.NET Core 1.1\Ecommerce - Copy\Ecommerce\bin\Debug\netcoreapp1.1\System.Security.xml
+D:\Projects\ASP.NET Core 1.1\Ecommerce - Copy\Ecommerce\bin\Debug\netcoreapp1.1\System.Xaml.xml
+D:\Projects\ASP.NET Core 1.1\Ecommerce - Copy\Ecommerce\bin\Debug\netcoreapp1.1\System.Configuration.xml
+D:\Projects\ASP.NET Core 1.1\Ecommerce - Copy\Ecommerce\bin\Debug\netcoreapp1.1\System.Data.SqlXml.xml
+D:\Projects\ASP.NET Core 1.1\Ecommerce - Copy\Ecommerce\bin\Debug\netcoreapp1.1\System.Numerics.xml
+D:\Projects\ASP.NET Core 1.1\Ecommerce - Copy\Ecommerce\bin\Debug\netcoreapp1.1\System.Drawing.xml
+D:\Projects\ASP.NET Core 1.1\Ecommerce - Copy\Ecommerce\bin\Debug\netcoreapp1.1\Accessibility.xml
+D:\Projects\ASP.NET Core 1.1\Ecommerce - Copy\Ecommerce\bin\Debug\netcoreapp1.1\System.Deployment.xml
+D:\Projects\ASP.NET Core 1.1\Ecommerce - Copy\Ecommerce\bin\Debug\netcoreapp1.1\System.Runtime.Serialization.Formatters.Soap.xml
+D:\Projects\ASP.NET Core 1.1\Ecommerce - Copy\Ecommerce\obj\Debug\netcoreapp1.1\Ecommerce.csprojResolveAssemblyReference.cache
+D:\Projects\ASP.NET Core 1.1\Ecommerce - Copy\Ecommerce\obj\Debug\netcoreapp1.1\UserSecretsAssemblyInfo.cs
+D:\Projects\ASP.NET Core 1.1\Ecommerce - Copy\Ecommerce\obj\Debug\netcoreapp1.1\Ecommerce.AssemblyInfo.cs
+D:\Projects\ASP.NET Core 1.1\Ecommerce - Copy\Ecommerce\obj\Debug\netcoreapp1.1\Ecommerce.dll
+D:\Projects\ASP.NET Core 1.1\Ecommerce - Copy\Ecommerce\obj\Debug\netcoreapp1.1\Ecommerce.pdb
+D:\Projects\ASP.NET Core 1.1\Ecommerce\Ecommerce\bin\Debug\netcoreapp1.1\Ecommerce.deps.json
+D:\Projects\ASP.NET Core 1.1\Ecommerce\Ecommerce\bin\Debug\netcoreapp1.1\Ecommerce.runtimeconfig.json
+D:\Projects\ASP.NET Core 1.1\Ecommerce\Ecommerce\bin\Debug\netcoreapp1.1\Ecommerce.runtimeconfig.dev.json
+D:\Projects\ASP.NET Core 1.1\Ecommerce\Ecommerce\bin\Debug\netcoreapp1.1\Ecommerce.dll
+D:\Projects\ASP.NET Core 1.1\Ecommerce\Ecommerce\bin\Debug\netcoreapp1.1\Ecommerce.pdb
+D:\Projects\ASP.NET Core 1.1\Ecommerce\Ecommerce\bin\Debug\netcoreapp1.1\Microsoft.Build.Tasks.v4.0.dll
+D:\Projects\ASP.NET Core 1.1\Ecommerce\Ecommerce\bin\Debug\netcoreapp1.1\System.dll
+D:\Projects\ASP.NET Core 1.1\Ecommerce\Ecommerce\bin\Debug\netcoreapp1.1\Microsoft.Build.Utilities.v4.0.dll
+D:\Projects\ASP.NET Core 1.1\Ecommerce\Ecommerce\bin\Debug\netcoreapp1.1\Microsoft.Build.Framework.dll
+D:\Projects\ASP.NET Core 1.1\Ecommerce\Ecommerce\bin\Debug\netcoreapp1.1\System.Xml.dll
+D:\Projects\ASP.NET Core 1.1\Ecommerce\Ecommerce\bin\Debug\netcoreapp1.1\System.Core.dll
+D:\Projects\ASP.NET Core 1.1\Ecommerce\Ecommerce\bin\Debug\netcoreapp1.1\System.Windows.Forms.dll
+D:\Projects\ASP.NET Core 1.1\Ecommerce\Ecommerce\bin\Debug\netcoreapp1.1\System.Security.dll
+D:\Projects\ASP.NET Core 1.1\Ecommerce\Ecommerce\bin\Debug\netcoreapp1.1\System.Xaml.dll
+D:\Projects\ASP.NET Core 1.1\Ecommerce\Ecommerce\bin\Debug\netcoreapp1.1\System.Configuration.dll
+D:\Projects\ASP.NET Core 1.1\Ecommerce\Ecommerce\bin\Debug\netcoreapp1.1\System.Data.SqlXml.dll
+D:\Projects\ASP.NET Core 1.1\Ecommerce\Ecommerce\bin\Debug\netcoreapp1.1\System.Numerics.dll
+D:\Projects\ASP.NET Core 1.1\Ecommerce\Ecommerce\bin\Debug\netcoreapp1.1\System.Drawing.dll
+D:\Projects\ASP.NET Core 1.1\Ecommerce\Ecommerce\bin\Debug\netcoreapp1.1\Accessibility.dll
+D:\Projects\ASP.NET Core 1.1\Ecommerce\Ecommerce\bin\Debug\netcoreapp1.1\System.Deployment.dll
+D:\Projects\ASP.NET Core 1.1\Ecommerce\Ecommerce\bin\Debug\netcoreapp1.1\System.Runtime.Serialization.Formatters.Soap.dll
+D:\Projects\ASP.NET Core 1.1\Ecommerce\Ecommerce\bin\Debug\netcoreapp1.1\Microsoft.Build.Tasks.v4.0.xml
+D:\Projects\ASP.NET Core 1.1\Ecommerce\Ecommerce\bin\Debug\netcoreapp1.1\System.xml
+D:\Projects\ASP.NET Core 1.1\Ecommerce\Ecommerce\bin\Debug\netcoreapp1.1\Microsoft.Build.Utilities.v4.0.xml
+D:\Projects\ASP.NET Core 1.1\Ecommerce\Ecommerce\bin\Debug\netcoreapp1.1\Microsoft.Build.Framework.xml
+D:\Projects\ASP.NET Core 1.1\Ecommerce\Ecommerce\bin\Debug\netcoreapp1.1\System.Xml.xml
+D:\Projects\ASP.NET Core 1.1\Ecommerce\Ecommerce\bin\Debug\netcoreapp1.1\System.Core.xml
+D:\Projects\ASP.NET Core 1.1\Ecommerce\Ecommerce\bin\Debug\netcoreapp1.1\System.Windows.Forms.xml
+D:\Projects\ASP.NET Core 1.1\Ecommerce\Ecommerce\bin\Debug\netcoreapp1.1\System.Security.xml
+D:\Projects\ASP.NET Core 1.1\Ecommerce\Ecommerce\bin\Debug\netcoreapp1.1\System.Xaml.xml
+D:\Projects\ASP.NET Core 1.1\Ecommerce\Ecommerce\bin\Debug\netcoreapp1.1\System.Configuration.xml
+D:\Projects\ASP.NET Core 1.1\Ecommerce\Ecommerce\bin\Debug\netcoreapp1.1\System.Data.SqlXml.xml
+D:\Projects\ASP.NET Core 1.1\Ecommerce\Ecommerce\bin\Debug\netcoreapp1.1\System.Numerics.xml
+D:\Projects\ASP.NET Core 1.1\Ecommerce\Ecommerce\bin\Debug\netcoreapp1.1\System.Drawing.xml
+D:\Projects\ASP.NET Core 1.1\Ecommerce\Ecommerce\bin\Debug\netcoreapp1.1\Accessibility.xml
+D:\Projects\ASP.NET Core 1.1\Ecommerce\Ecommerce\bin\Debug\netcoreapp1.1\System.Deployment.xml
+D:\Projects\ASP.NET Core 1.1\Ecommerce\Ecommerce\bin\Debug\netcoreapp1.1\System.Runtime.Serialization.Formatters.Soap.xml
+D:\Projects\ASP.NET Core 1.1\Ecommerce\Ecommerce\obj\Debug\netcoreapp1.1\Ecommerce.csprojResolveAssemblyReference.cache
+D:\Projects\ASP.NET Core 1.1\Ecommerce\Ecommerce\obj\Debug\netcoreapp1.1\UserSecretsAssemblyInfo.cs
+D:\Projects\ASP.NET Core 1.1\Ecommerce\Ecommerce\obj\Debug\netcoreapp1.1\Ecommerce.AssemblyInfo.cs
+D:\Projects\ASP.NET Core 1.1\Ecommerce\Ecommerce\obj\Debug\netcoreapp1.1\Ecommerce.dll
+D:\Projects\ASP.NET Core 1.1\Ecommerce\Ecommerce\obj\Debug\netcoreapp1.1\Ecommerce.pdb

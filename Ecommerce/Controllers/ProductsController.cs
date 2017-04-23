@@ -20,7 +20,8 @@ namespace Ecommerce.Controllers
         private readonly IHostingEnvironment _hostingEnvironment;
         private readonly UserManager<ApplicationUser> _userManager;
 
-        public ProductsController(ApplicationDbContext context, UserManager<ApplicationUser> userManager,
+        public ProductsController(ApplicationDbContext context, 
+			UserManager<ApplicationUser> userManager,
             IHostingEnvironment hostingEnvironment)
         {
             _hostingEnvironment = hostingEnvironment;
