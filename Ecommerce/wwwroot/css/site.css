@@ -27,13 +27,13 @@ textarea { max-width: 280px; }
 
 /* buttons and links extension to use brackets: [ click me ] */
 
-.btn-bracketed::before {
+.btn-bracketed:before {
     content: "[";
     display: inline-block;
     padding-right: 0.5em;
 }
 
-.btn-bracketed::after {
+.btn-bracketed:after {
     content: "]";
     display: inline-block;
     padding-left: 0.5em;

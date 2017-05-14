@@ -40,7 +40,7 @@ namespace Ecommerce.Controllers
                 ViewData["Country"] = new SelectList(Enum.GetNames(typeof(Country)).ToList());
                 ViewData["UserId"] = new SelectList(_context.Users, "Id", "Id");
 
-                return RedirectToAction("Edit",new {@id=id});
+                return RedirectToAction("Edit",new {id});
             }
 
             ViewData["Gender"] = new SelectList(Enum.GetNames(typeof(Gender)).ToList());
@@ -180,6 +180,8 @@ namespace Ecommerce.Controllers
         [HttpPost]
         public async Task<IActionResult> OrderOverview(Order order)
         {
+            if (order == null) throw new ArgumentNullException(nameof(order));
+
             var user = await _userManager.GetUserAsync(User);
 
             ViewBag.PaymetnType = HttpContext.Session.GetString("PaymentType");

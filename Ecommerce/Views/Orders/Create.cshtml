@@ -1,0 +1,124 @@
+@model Ecommerce.Models.Order
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h2>Create</h2>
+
+<form asp-action="Create">
+    <div class="form-horizontal">
+        <h4>Order</h4>
+        <hr />
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div class="form-group">
+            <label asp-for="Number" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="Number" class="form-control" />
+                <span asp-validation-for="Number" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="Date" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="Date" class="form-control" />
+                <span asp-validation-for="Date" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="RequireDate" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="RequireDate" class="form-control" />
+                <span asp-validation-for="RequireDate" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="ShipDate" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="ShipDate" class="form-control" />
+                <span asp-validation-for="ShipDate" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="SalesTax" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="SalesTax" class="form-control" />
+                <span asp-validation-for="SalesTax" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="TimeStamp" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="TimeStamp" class="form-control" />
+                <span asp-validation-for="TimeStamp" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="TransactStatus" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="TransactStatus" class="form-control" />
+                <span asp-validation-for="TransactStatus" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="ErrorLLoc" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="ErrorLLoc" class="form-control" />
+                <span asp-validation-for="ErrorLLoc" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="ErrorMsg" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="ErrorMsg" class="form-control" />
+                <span asp-validation-for="ErrorMsg" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="Fulfilled" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="Fulfilled" class="form-control" />
+                <span asp-validation-for="Fulfilled" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <div class="checkbox">
+                    <input asp-for="Deleted" />
+                    <label asp-for="Deleted"></label>
+                </div>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <div class="checkbox">
+                    <input asp-for="Paid" />
+                    <label asp-for="Paid"></label>
+                </div>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="PaymentDate" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="PaymentDate" class="form-control" />
+                <span asp-validation-for="PaymentDate" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label asp-for="UserId" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <select asp-for="UserId" class ="form-control" asp-items="ViewBag.UserId"></select>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Create" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+</form>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+

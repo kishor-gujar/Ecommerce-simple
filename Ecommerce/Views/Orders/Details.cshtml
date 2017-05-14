@@ -1,0 +1,102 @@
+@model Ecommerce.Models.Order
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Order</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Number)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Number)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Date)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Date)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.RequireDate)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.RequireDate)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.ShipDate)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.ShipDate)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.SalesTax)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.SalesTax)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.TimeStamp)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.TimeStamp)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.TransactStatus)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.TransactStatus)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.ErrorLLoc)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.ErrorLLoc)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.ErrorMsg)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.ErrorMsg)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Fulfilled)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Fulfilled)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Deleted)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Deleted)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Paid)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Paid)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.PaymentDate)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.PaymentDate)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.ApplicationUser)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.ApplicationUser.Id)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.Id">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

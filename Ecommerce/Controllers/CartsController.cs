@@ -32,6 +32,7 @@ namespace Ecommerce.Controllers
                 select c;
 
             var applicationDbContext = carts.Include(c => c.Product);
+            ViewData["carts"] = applicationDbContext.Count();
             return View(await applicationDbContext.ToListAsync());
         }
 
@@ -71,7 +72,7 @@ namespace Ecommerce.Controllers
                 return RedirectToAction("Index");
             }
 
-            if (!ModelState.IsValid) return View(cart);
+            if (!ModelState.IsValid) return View("Error");
 
             cart.UserId = usre.Id;
 
